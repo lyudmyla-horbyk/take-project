@@ -1,0 +1,234 @@
+/*GENERAL STYLES*/
+body {
+    font-size: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+    position: relative;
+}
+
+/*HEADER*/
+
+.header {
+    width: 100%;
+    height: 951px;
+    background-size: cover;
+    background: url('../images/man.jpg') no-repeat center;
+    box-sizing: border-box;
+    /*overflow: hidden;*/
+}
+
+.logo {
+    height: 40px;
+    width: 95px;
+    display: block;
+    text-decoration: none;
+    position: absolute;
+    top: 66px;
+    left: 50px;
+}
+
+.radius {
+    border-radius: 25px;
+    border: 3px solid #ffffff;
+    width: 34px;
+    height: 34px;
+    display: block;
+    float: left;
+}
+
+.smaller-radius {
+    border-radius: 25px;
+    border: inherit;
+    width: 9px;
+    height: 9px;
+    margin: 9px auto 0;
+    display: block;
+}
+
+.logo .slogan {
+    font: 21px 'Merriweather';
+    font-weight: 900;
+    color: #ffffff;
+    float: right;
+    height: 40px;
+    line-height: 40px;
+}
+
+a.logo:active .slogan,
+a.logo:hover .slogan {
+    color: #23eeec;
+}
+
+a.logo:hover .radius {
+    border: 3px solid #23eeec;
+}
+
+.heading {
+    position: absolute;
+    top: 315px;
+    left: 0;
+
+    width: 480px;
+    height: 180px;
+}
+
+.heading h1,
+.heading h2 {
+    color: #ffffff;
+}
+
+.heading h1 {
+    font: 60px 'Open Sans', sans-serif;
+    font-weight: 300;
+    line-height: 32px;
+}
+
+.heading h2 {
+    font: 13px 'Open Sans', sans-srif;
+    font-weight: normal;
+    line-height: 25px;
+
+}
+
+/*MAIN SECTION*/
+.main {
+    background-color: #ffffff;
+    height: 1621px;
+}
+
+.phone {
+    background-image: url('../images/phone.png');
+    width: 716px;
+    height: 948px;
+    background-size: cover;
+    margin-left: 520px;
+    margin-top: -810px;
+    position: absolute;
+}
+
+.text-new h1 {
+    color: black;
+    font: 35px "Open Sans";
+    font-weight: 300;
+    margin-top: 110px;
+    line-height: 30px;
+
+}
+
+.column1, .column2 {
+    color: #959595;
+    font: 14px "Open Sans";
+    font-weight: normal;
+}
+
+.column1 {
+    float: left;
+    width: 50%;
+}
+
+.column2 {
+    float: right;
+    margin-top: 100px;
+    width: 50%;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.text-new p {
+    margin-top: 25px;
+    line-height: 25px;
+}
+
+.boxes {
+    width: 100%;
+    outline: 10px solid red;
+    display: block;
+    height: 560px;
+    background-color: red;
+
+}
+
+.box-pink {
+    background-color: #f5989d;
+    display: inline-block;
+
+}
+
+/*FULL IMAGE*/
+.full-image {
+    width: 100%;
+    height: 874px;
+    background-size: cover;
+    background: url('../images/car.jpg') no-repeat center;
+    overflow: hidden;
+}
+
+.more-text {
+    color: #ffffff;
+    margin-top: 430px;
+}
+
+.more-text h1 {
+    font: 60px 'Open Sans';
+    font-weight: 300;
+}
+
+.more-text p {
+    font: 13px 'Open Sans';
+    font-weight: normal;
+    line-height: 24px;
+}
+
+.more-text a.options {
+    text-decoration: none;
+    font: 14px 'Open Sans';
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.more-text a.options:hover {
+    color: #14dbe2;
+}
+
+/*COLOUR*/
+.colour {
+    background-color: #82ca9c;
+    height: 536px;
+    overflow: hidden;
+}
+
+.container {
+    color: #ffffff;
+}
+
+.reasons h1 {
+    font: 35px 'Open Sans';
+    font-weight: 300;
+    margin-top: 100px;
+}
+
+.table-text {
+    font: 14px 'Open Sans';
+    font-weight: normal;
+    line-height: 25px;
+}
+
+/*BUYING*/
+.buying {
+    background-color: #f6f7fa;
+    height: 628px;
+}
+
+/*FOOTER*/
+.footer {
+    background-color: #192431;
+    height: 608px;
+    overflow: hidden;
+}
+
+
